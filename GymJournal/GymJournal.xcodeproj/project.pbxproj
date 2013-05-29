@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		288AE6831756489500CA1114 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 288AE6821756489500CA1114 /* ViewController.xib */; };
 		28B2901517561F3F00933D4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B2901417561F3F00933D4A /* UIKit.framework */; };
 		28B2901717561F3F00933D4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B2901617561F3F00933D4A /* Foundation.framework */; };
 		28B2901917561F3F00933D4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B2901817561F3F00933D4A /* CoreGraphics.framework */; };
@@ -17,7 +18,6 @@
 		28B2902917561F3F00933D4A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B2902817561F3F00933D4A /* Default@2x.png */; };
 		28B2902B17561F3F00933D4A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B2902A17561F3F00933D4A /* Default-568h@2x.png */; };
 		28B2902E17561F3F00933D4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2902D17561F3F00933D4A /* ViewController.m */; };
-		28B2903117561F3F00933D4A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28B2902F17561F3F00933D4A /* ViewController.xib */; };
 		28B2903E17561F7000933D4A /* MZDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2903917561F7000933D4A /* MZDay.m */; };
 		28B2903F17561F7000933D4A /* MZDayPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2903B17561F7000933D4A /* MZDayPicker.m */; };
 		28B2904017561F7000933D4A /* MZDayPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2903D17561F7000933D4A /* MZDayPickerCell.m */; };
@@ -26,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		288AE6821756489500CA1114 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		28B2901117561F3F00933D4A /* GymJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B2901417561F3F00933D4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28B2901617561F3F00933D4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -41,7 +42,6 @@
 		28B2902A17561F3F00933D4A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		28B2902C17561F3F00933D4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		28B2902D17561F3F00933D4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		28B2903017561F3F00933D4A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		28B2903817561F7000933D4A /* MZDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDay.h; sourceTree = "<group>"; };
 		28B2903917561F7000933D4A /* MZDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDay.m; sourceTree = "<group>"; };
 		28B2903A17561F7000933D4A /* MZDayPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDayPicker.h; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 			children = (
 				28B2902C17561F3F00933D4A /* ViewController.h */,
 				28B2902D17561F3F00933D4A /* ViewController.m */,
-				28B2902F17561F3F00933D4A /* ViewController.xib */,
+				288AE6821756489500CA1114 /* ViewController.xib */,
 			);
 			name = MainView;
 			sourceTree = "<group>";
@@ -209,8 +209,8 @@
 				28B2902717561F3F00933D4A /* Default.png in Resources */,
 				28B2902917561F3F00933D4A /* Default@2x.png in Resources */,
 				28B2902B17561F3F00933D4A /* Default-568h@2x.png in Resources */,
-				28B2903117561F3F00933D4A /* ViewController.xib in Resources */,
 				28B290471756376D00933D4A /* WorkoutViewController.xib in Resources */,
+				288AE6831756489500CA1114 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,14 +240,6 @@
 				28B2901E17561F3F00933D4A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		28B2902F17561F3F00933D4A /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				28B2903017561F3F00933D4A /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -350,6 +342,7 @@
 				28B2903617561F3F00933D4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
