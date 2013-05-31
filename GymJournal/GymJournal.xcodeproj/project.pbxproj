@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		288AE6831756489500CA1114 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 288AE6821756489500CA1114 /* ViewController.xib */; };
+		289A33A1175946BB006E875E /* GymJournal_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 289A33A0175946BB006E875E /* GymJournal_icon.png */; };
+		289A33A3175946C0006E875E /* GymJournal_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 289A33A2175946C0006E875E /* GymJournal_icon@2x.png */; };
 		28B2901517561F3F00933D4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B2901417561F3F00933D4A /* UIKit.framework */; };
 		28B2901717561F3F00933D4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B2901617561F3F00933D4A /* Foundation.framework */; };
 		28B2901917561F3F00933D4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B2901817561F3F00933D4A /* CoreGraphics.framework */; };
@@ -18,15 +20,16 @@
 		28B2902917561F3F00933D4A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B2902817561F3F00933D4A /* Default@2x.png */; };
 		28B2902B17561F3F00933D4A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B2902A17561F3F00933D4A /* Default-568h@2x.png */; };
 		28B2902E17561F3F00933D4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2902D17561F3F00933D4A /* ViewController.m */; };
-		28B2903E17561F7000933D4A /* MZDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2903917561F7000933D4A /* MZDay.m */; };
-		28B2903F17561F7000933D4A /* MZDayPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2903B17561F7000933D4A /* MZDayPicker.m */; };
-		28B2904017561F7000933D4A /* MZDayPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2903D17561F7000933D4A /* MZDayPickerCell.m */; };
 		28B290461756376D00933D4A /* WorkoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B290441756376D00933D4A /* WorkoutViewController.m */; };
 		28B290471756376D00933D4A /* WorkoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28B290451756376D00933D4A /* WorkoutViewController.xib */; };
+		855D40F156BE48AFB0CA5F07 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3179C6AC3C46918A63FC84 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A3179C6AC3C46918A63FC84 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		288AE6821756489500CA1114 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		289A33A0175946BB006E875E /* GymJournal_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GymJournal_icon.png; sourceTree = SOURCE_ROOT; };
+		289A33A2175946C0006E875E /* GymJournal_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GymJournal_icon@2x.png"; sourceTree = SOURCE_ROOT; };
 		28B2901117561F3F00933D4A /* GymJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B2901417561F3F00933D4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28B2901617561F3F00933D4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,15 +45,10 @@
 		28B2902A17561F3F00933D4A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		28B2902C17561F3F00933D4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		28B2902D17561F3F00933D4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		28B2903817561F7000933D4A /* MZDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDay.h; sourceTree = "<group>"; };
-		28B2903917561F7000933D4A /* MZDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDay.m; sourceTree = "<group>"; };
-		28B2903A17561F7000933D4A /* MZDayPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDayPicker.h; sourceTree = "<group>"; };
-		28B2903B17561F7000933D4A /* MZDayPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDayPicker.m; sourceTree = "<group>"; };
-		28B2903C17561F7000933D4A /* MZDayPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDayPickerCell.h; sourceTree = "<group>"; };
-		28B2903D17561F7000933D4A /* MZDayPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDayPickerCell.m; sourceTree = "<group>"; };
 		28B290431756376D00933D4A /* WorkoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutViewController.h; sourceTree = "<group>"; };
 		28B290441756376D00933D4A /* WorkoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutViewController.m; sourceTree = "<group>"; };
 		28B290451756376D00933D4A /* WorkoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkoutViewController.xib; sourceTree = "<group>"; };
+		2B83C47732F9414E957D45B8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +59,7 @@
 				28B2901517561F3F00933D4A /* UIKit.framework in Frameworks */,
 				28B2901717561F3F00933D4A /* Foundation.framework in Frameworks */,
 				28B2901917561F3F00933D4A /* CoreGraphics.framework in Frameworks */,
+				855D40F156BE48AFB0CA5F07 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,8 +70,10 @@
 			isa = PBXGroup;
 			children = (
 				28B2901A17561F3F00933D4A /* GymJournal */,
+				28B2901B17561F3F00933D4A /* Supporting Files */,
 				28B2901317561F3F00933D4A /* Frameworks */,
 				28B2901217561F3F00933D4A /* Products */,
+				2B83C47732F9414E957D45B8 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +91,7 @@
 				28B2901417561F3F00933D4A /* UIKit.framework */,
 				28B2901617561F3F00933D4A /* Foundation.framework */,
 				28B2901817561F3F00933D4A /* CoreGraphics.framework */,
+				1A3179C6AC3C46918A63FC84 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -99,9 +101,7 @@
 			children = (
 				28B2902317561F3F00933D4A /* AppDelegate.h */,
 				28B2902417561F3F00933D4A /* AppDelegate.m */,
-				28B290411756360800933D4A /* MainView */,
-				28B290421756362300933D4A /* WorkoutView */,
-				28B2901B17561F3F00933D4A /* Supporting Files */,
+				28B290411756360800933D4A /* ViewControllers */,
 			);
 			path = GymJournal;
 			sourceTree = "<group>";
@@ -109,7 +109,8 @@
 		28B2901B17561F3F00933D4A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				28B2903717561F7000933D4A /* MZDayPicker */,
+				289A33A2175946C0006E875E /* GymJournal_icon@2x.png */,
+				289A33A0175946BB006E875E /* GymJournal_icon.png */,
 				28B2901C17561F3F00933D4A /* GymJournal-Info.plist */,
 				28B2901D17561F3F00933D4A /* InfoPlist.strings */,
 				28B2902017561F3F00933D4A /* main.m */,
@@ -119,39 +120,20 @@
 				28B2902A17561F3F00933D4A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = GymJournal;
 			sourceTree = "<group>";
 		};
-		28B2903717561F7000933D4A /* MZDayPicker */ = {
-			isa = PBXGroup;
-			children = (
-				28B2903817561F7000933D4A /* MZDay.h */,
-				28B2903917561F7000933D4A /* MZDay.m */,
-				28B2903A17561F7000933D4A /* MZDayPicker.h */,
-				28B2903B17561F7000933D4A /* MZDayPicker.m */,
-				28B2903C17561F7000933D4A /* MZDayPickerCell.h */,
-				28B2903D17561F7000933D4A /* MZDayPickerCell.m */,
-			);
-			path = MZDayPicker;
-			sourceTree = "<group>";
-		};
-		28B290411756360800933D4A /* MainView */ = {
-			isa = PBXGroup;
-			children = (
-				28B2902C17561F3F00933D4A /* ViewController.h */,
-				28B2902D17561F3F00933D4A /* ViewController.m */,
-				288AE6821756489500CA1114 /* ViewController.xib */,
-			);
-			name = MainView;
-			sourceTree = "<group>";
-		};
-		28B290421756362300933D4A /* WorkoutView */ = {
+		28B290411756360800933D4A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				28B290431756376D00933D4A /* WorkoutViewController.h */,
 				28B290441756376D00933D4A /* WorkoutViewController.m */,
 				28B290451756376D00933D4A /* WorkoutViewController.xib */,
+				28B2902C17561F3F00933D4A /* ViewController.h */,
+				28B2902D17561F3F00933D4A /* ViewController.m */,
+				288AE6821756489500CA1114 /* ViewController.xib */,
 			);
-			name = WorkoutView;
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28B2903417561F3F00933D4A /* Build configuration list for PBXNativeTarget "GymJournal" */;
 			buildPhases = (
+				C28EFDB776064272886D7DC5 /* Check Pods Manifest.lock */,
 				28B2900D17561F3F00933D4A /* Sources */,
 				28B2900E17561F3F00933D4A /* Frameworks */,
 				28B2900F17561F3F00933D4A /* Resources */,
+				A6BA09F5E33641EF94FBA894 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,10 +195,43 @@
 				28B2902B17561F3F00933D4A /* Default-568h@2x.png in Resources */,
 				28B290471756376D00933D4A /* WorkoutViewController.xib in Resources */,
 				288AE6831756489500CA1114 /* ViewController.xib in Resources */,
+				289A33A1175946BB006E875E /* GymJournal_icon.png in Resources */,
+				289A33A3175946C0006E875E /* GymJournal_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6BA09F5E33641EF94FBA894 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		C28EFDB776064272886D7DC5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28B2900D17561F3F00933D4A /* Sources */ = {
@@ -224,9 +241,6 @@
 				28B2902117561F3F00933D4A /* main.m in Sources */,
 				28B2902517561F3F00933D4A /* AppDelegate.m in Sources */,
 				28B2902E17561F3F00933D4A /* ViewController.m in Sources */,
-				28B2903E17561F7000933D4A /* MZDay.m in Sources */,
-				28B2903F17561F7000933D4A /* MZDayPicker.m in Sources */,
-				28B2904017561F7000933D4A /* MZDayPickerCell.m in Sources */,
 				28B290461756376D00933D4A /* WorkoutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +317,7 @@
 		};
 		28B2903517561F3F00933D4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B83C47732F9414E957D45B8 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GymJournal/GymJournal-Prefix.pch";
@@ -314,6 +329,7 @@
 		};
 		28B2903617561F3F00933D4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B83C47732F9414E957D45B8 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GymJournal/GymJournal-Prefix.pch";

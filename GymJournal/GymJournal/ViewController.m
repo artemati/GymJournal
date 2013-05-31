@@ -28,7 +28,7 @@
     self.dayPicker.dayNameLabelFontSize = 12.0f;
     self.dayPicker.dayLabelFontSize = 18.0f;
     
-    [self.dayPicker setActiveDaysFrom:1 toDay:30];
+    [self.dayPicker setActiveDaysFrom:1 toDay:31];
     
     [self.dayPicker setCurrentDay:27 animated:NO];
 }

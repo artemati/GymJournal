@@ -10,6 +10,7 @@
 #import "MZDayPicker.h"
 
 @interface ViewController : UIViewController
+
 @property (weak, nonatomic) IBOutlet MZDayPicker *dayPicker;
 
 @end
